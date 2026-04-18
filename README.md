@@ -186,13 +186,13 @@ serum-guide/
 ├── vite.config.js
 └── README.md
 
+---```
 
----
 
 ## Deploy
-#
+ 
 การติดตั้งและรันบน macOS แบบ local
-1) สิ่งที่ต้องมีในเครื่อง
+### 1) สิ่งที่ต้องมีในเครื่อง
 
 ควรมี:
 
@@ -208,11 +208,11 @@ npm -v
 ถ้ายังไม่มี Node.js และใช้ Homebrew:
 
 brew install node
-2) สร้างโปรเจกต์ใหม่ด้วย Vite
+### 2) สร้างโปรเจกต์ใหม่ด้วย Vite
 npm create vite@latest serum-guide -- --template react
 cd serum-guide
 npm install
-3) ติดตั้ง dependencies ที่ใช้ในโปรเจกต์
+### 3) ติดตั้ง dependencies ที่ใช้ในโปรเจกต์
 npm install framer-motion lucide-react
 
 เพราะหน้าเว็บนี้ใช้ UI component แนว shadcn/ui ด้วย
@@ -224,7 +224,7 @@ npx shadcn@latest add card button input tabs badge
 ระหว่าง init อาจมี prompt ให้เลือก style, base color, component path
 ถ้าใช้ดูเองคนเดียว ใช้ค่า default ได้เลย
 
-4) วาง source code
+### 4) วาง source code
 
 เอา source code หลักของหน้าเว็บไปวางในไฟล์:
 
