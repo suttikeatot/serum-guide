@@ -184,9 +184,10 @@ serum-guide/
 ├── public/
 ├── package.json
 ├── vite.config.js
-└── README.md
+└── README.md-```
 
----```
+
+---
 
 
 ## Deploy
@@ -278,6 +279,7 @@ http://localhost:8080
 หมายเหตุสำคัญเกี่ยวกับการเปิด local
 
 ไม่ควรดับเบิลคลิกเปิด dist/index.html ตรง ๆ ด้วย file://
-ถ้าอยากให้ behavior ของเว็บสมบูรณ์ ควรเปิดผ่าน local server จะดีกว่า
+ถ้าอยากให้ behavior ของเว็บสมบูรณ์ ควรเปิดผ่าน local server จะดีกว่า-```
+
 
 ---
